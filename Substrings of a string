@@ -1,0 +1,3 @@
+x = input("Enter the string: ")
+res = [x[i: j] for i in range(len(x)) for j in range(i + 1, len(x) + 1)]
+print(res)
