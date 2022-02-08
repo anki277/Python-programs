@@ -1,0 +1,10 @@
+x = int(input("Enter the number of fibonacci you want to print: "))
+a = 1
+b = 1
+print(a)
+print(b)
+for i in range(x):
+    c = a+b
+    a = b
+    b = c
+    print(c)
